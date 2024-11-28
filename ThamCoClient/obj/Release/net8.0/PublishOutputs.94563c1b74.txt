@@ -1,0 +1,7 @@
+C:\Users\ibrahim\Downloads\ThamCOFrontend\ThamCoClient\bin\publish\ThamCoClient.exe
+C:\Users\ibrahim\Downloads\ThamCOFrontend\ThamCoClient\bin\publish\appsettings.Development.json
+C:\Users\ibrahim\Downloads\ThamCOFrontend\ThamCoClient\bin\publish\appsettings.json
+C:\Users\ibrahim\Downloads\ThamCOFrontend\ThamCoClient\bin\publish\ThamCoClient.dll
+C:\Users\ibrahim\Downloads\ThamCOFrontend\ThamCoClient\bin\publish\ThamCoClient.deps.json
+C:\Users\ibrahim\Downloads\ThamCOFrontend\ThamCoClient\bin\publish\ThamCoClient.runtimeconfig.json
+C:\Users\ibrahim\Downloads\ThamCOFrontend\ThamCoClient\bin\publish\ThamCoClient.pdb
