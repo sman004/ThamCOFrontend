@@ -6,6 +6,16 @@ C:\Users\ibrahim\Downloads\ThamCOFrontend\ThamCoClient\bin\Debug\net8.0\ThamCoCl
 C:\Users\ibrahim\Downloads\ThamCOFrontend\ThamCoClient\bin\Debug\net8.0\ThamCoClient.runtimeconfig.json
 C:\Users\ibrahim\Downloads\ThamCOFrontend\ThamCoClient\bin\Debug\net8.0\ThamCoClient.dll
 C:\Users\ibrahim\Downloads\ThamCOFrontend\ThamCoClient\bin\Debug\net8.0\ThamCoClient.pdb
+C:\Users\ibrahim\Downloads\ThamCOFrontend\ThamCoClient\bin\Debug\net8.0\Auth0.AspNetCore.Authentication.dll
+C:\Users\ibrahim\Downloads\ThamCOFrontend\ThamCoClient\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
+C:\Users\ibrahim\Downloads\ThamCOFrontend\ThamCoClient\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\ibrahim\Downloads\ThamCOFrontend\ThamCoClient\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\ibrahim\Downloads\ThamCOFrontend\ThamCoClient\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\ibrahim\Downloads\ThamCOFrontend\ThamCoClient\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\ibrahim\Downloads\ThamCOFrontend\ThamCoClient\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\ibrahim\Downloads\ThamCOFrontend\ThamCoClient\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\ibrahim\Downloads\ThamCOFrontend\ThamCoClient\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\ibrahim\Downloads\ThamCOFrontend\ThamCoClient\obj\Debug\net8.0\ThamCoClient.csproj.AssemblyReference.cache
 C:\Users\ibrahim\Downloads\ThamCOFrontend\ThamCoClient\obj\Debug\net8.0\ThamCoClient.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\ibrahim\Downloads\ThamCOFrontend\ThamCoClient\obj\Debug\net8.0\ThamCoClient.AssemblyInfoInputs.cache
 C:\Users\ibrahim\Downloads\ThamCOFrontend\ThamCoClient\obj\Debug\net8.0\ThamCoClient.AssemblyInfo.cs
@@ -13,6 +23,7 @@ C:\Users\ibrahim\Downloads\ThamCOFrontend\ThamCoClient\obj\Debug\net8.0\ThamCoCl
 C:\Users\ibrahim\Downloads\ThamCOFrontend\ThamCoClient\obj\Debug\net8.0\ThamCoClient.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\ibrahim\Downloads\ThamCOFrontend\ThamCoClient\obj\Debug\net8.0\ThamCoClient.RazorAssemblyInfo.cache
 C:\Users\ibrahim\Downloads\ThamCOFrontend\ThamCoClient\obj\Debug\net8.0\ThamCoClient.RazorAssemblyInfo.cs
+C:\Users\ibrahim\Downloads\ThamCOFrontend\ThamCoClient\obj\Debug\net8.0\ThamCoClient.sourcelink.json
 C:\Users\ibrahim\Downloads\ThamCOFrontend\ThamCoClient\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\ibrahim\Downloads\ThamCOFrontend\ThamCoClient\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\ibrahim\Downloads\ThamCOFrontend\ThamCoClient\obj\Debug\net8.0\staticwebassets\msbuild.ThamCoClient.Microsoft.AspNetCore.StaticWebAssets.props
@@ -23,6 +34,7 @@ C:\Users\ibrahim\Downloads\ThamCOFrontend\ThamCoClient\obj\Debug\net8.0\staticwe
 C:\Users\ibrahim\Downloads\ThamCOFrontend\ThamCoClient\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\ibrahim\Downloads\ThamCOFrontend\ThamCoClient\obj\Debug\net8.0\scopedcss\bundle\ThamCoClient.styles.css
 C:\Users\ibrahim\Downloads\ThamCOFrontend\ThamCoClient\obj\Debug\net8.0\scopedcss\projectbundle\ThamCoClient.bundle.scp.css
+C:\Users\ibrahim\Downloads\ThamCOFrontend\ThamCoClient\obj\Debug\net8.0\ThamCoCl.3DF38256.Up2Date
 C:\Users\ibrahim\Downloads\ThamCOFrontend\ThamCoClient\obj\Debug\net8.0\ThamCoClient.dll
 C:\Users\ibrahim\Downloads\ThamCOFrontend\ThamCoClient\obj\Debug\net8.0\refint\ThamCoClient.dll
 C:\Users\ibrahim\Downloads\ThamCOFrontend\ThamCoClient\obj\Debug\net8.0\ThamCoClient.pdb

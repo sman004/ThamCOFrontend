@@ -1,6 +1,14 @@
 using ThamCoClient.Services.Products;
-
+﻿using Auth0.AspNetCore.Authentication;
 var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.AddAuth0WebAppAuthentication(options => {
+    options.Domain = builder.Configuration["Auth:Domain"];
+    options.ClientId = builder.Configuration["Auth:ClientId"];
+});
+
+
+
 
 // Add services to the container.
 if(builder.Environment.IsDevelopment())
@@ -28,6 +36,7 @@ app.UseStaticFiles();
 
 app.UseRouting();
 
+app.UseAuthorization();
 app.UseAuthorization();
 
 app.MapControllerRoute(

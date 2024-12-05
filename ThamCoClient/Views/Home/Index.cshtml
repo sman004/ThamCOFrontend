@@ -1,8 +1,22 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
+﻿
+
+@{
+    if (User.Identity.IsAuthenticated)
+    {
+        ViewData["Title"] = $"{User.Identity.Name}'s Value Fetch";
+    }
+    else
+    {
+        ViewData["Title"] = "Home Page";
+    }
 }
 
+<h1>@ViewData["Title"]</h1>
+
+<!-- This is an HTML comment 
 <div class="text-center">
     <h1 class="display-4">Welcome to threeamigos</h1>
     <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
 </div>
+
+-->
