@@ -9,11 +9,16 @@ namespace ThamCoClient.Services.Products
         private string? _cachedToken;
         private DateTime _tokenExpiry;
 
+        public ProductService(){
+            
+        }
+
         public ProductService(IHttpClientFactory clientFactory, IConfiguration configuration)
         {
             _clientFactory = clientFactory;
             _configuration = configuration;
         }
+        
 
         record TokenDto(string access_token, string token_type, int expires_in);
 
