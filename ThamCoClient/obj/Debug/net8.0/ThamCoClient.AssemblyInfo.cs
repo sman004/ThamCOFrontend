@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ThamCoClient")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+54015c2afcdd871f7f7a32bbddc996cef3051ed3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+75abbd813ffce2103232ce90b0203f759413643a")]
 [assembly: System.Reflection.AssemblyProductAttribute("ThamCoClient")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ThamCoClient")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

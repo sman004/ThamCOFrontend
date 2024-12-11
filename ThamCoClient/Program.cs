@@ -1,5 +1,5 @@
 using ThamCoClient.Services.Products;
-﻿using Auth0.AspNetCore.Authentication;
+using Auth0.AspNetCore.Authentication;
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddAuth0WebAppAuthentication(options => {
@@ -35,7 +35,7 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
-
+app.UseAuthentication();
 app.UseAuthorization();
 
 
