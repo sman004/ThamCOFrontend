@@ -8,12 +8,16 @@ C:\Users\ibrahim\Downloads\ThamCOFrontend\ThamCoClient\bin\Debug\net8.0\ThamCoCl
 C:\Users\ibrahim\Downloads\ThamCOFrontend\ThamCoClient\bin\Debug\net8.0\ThamCoClient.pdb
 C:\Users\ibrahim\Downloads\ThamCOFrontend\ThamCoClient\bin\Debug\net8.0\Auth0.AspNetCore.Authentication.dll
 C:\Users\ibrahim\Downloads\ThamCOFrontend\ThamCoClient\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
+C:\Users\ibrahim\Downloads\ThamCOFrontend\ThamCoClient\bin\Debug\net8.0\Microsoft.Extensions.Http.Polly.dll
 C:\Users\ibrahim\Downloads\ThamCOFrontend\ThamCoClient\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
 C:\Users\ibrahim\Downloads\ThamCOFrontend\ThamCoClient\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
 C:\Users\ibrahim\Downloads\ThamCOFrontend\ThamCoClient\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
 C:\Users\ibrahim\Downloads\ThamCOFrontend\ThamCoClient\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
 C:\Users\ibrahim\Downloads\ThamCOFrontend\ThamCoClient\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 C:\Users\ibrahim\Downloads\ThamCOFrontend\ThamCoClient\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\ibrahim\Downloads\ThamCOFrontend\ThamCoClient\bin\Debug\net8.0\Polly.dll
+C:\Users\ibrahim\Downloads\ThamCOFrontend\ThamCoClient\bin\Debug\net8.0\Polly.Core.dll
+C:\Users\ibrahim\Downloads\ThamCOFrontend\ThamCoClient\bin\Debug\net8.0\Polly.Extensions.Http.dll
 C:\Users\ibrahim\Downloads\ThamCOFrontend\ThamCoClient\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
 C:\Users\ibrahim\Downloads\ThamCOFrontend\ThamCoClient\obj\Debug\net8.0\ThamCoClient.csproj.AssemblyReference.cache
 C:\Users\ibrahim\Downloads\ThamCOFrontend\ThamCoClient\obj\Debug\net8.0\ThamCoClient.GeneratedMSBuildEditorConfig.editorconfig

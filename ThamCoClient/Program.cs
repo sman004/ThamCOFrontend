@@ -1,24 +1,47 @@
 using ThamCoClient.Services.Products;
 using Auth0.AspNetCore.Authentication;
+using Polly;
+using Polly.Extensions.Http;
+
+
+
 var builder = WebApplication.CreateBuilder(args);
+
+
+
+IAsyncPolicy<HttpResponseMessage> GetRetryPolicy()
+{
+    return HttpPolicyExtensions
+        .HandleTransientHttpError()
+        .OrResult(msg => msg.StatusCode == System.Net.HttpStatusCode.NotFound)
+        .WaitAndRetryAsync(6, retryAttempt =>
+            TimeSpan.FromSeconds(Math.Pow(2, retryAttempt)));
+}
+
+IAsyncPolicy<HttpResponseMessage> GetCircuitBreakerPolicy()
+{
+    return HttpPolicyExtensions
+        .HandleTransientHttpError()
+        .CircuitBreakerAsync(6, TimeSpan.FromSeconds(30));
+}
 
 builder.Services.AddAuth0WebAppAuthentication(options => {
     options.Domain = builder.Configuration["Auth:Domain"];
     options.ClientId = builder.Configuration["Auth:ClientId"];
 });
 
-
-
-
 // Add services to the container.
-if(builder.Environment.IsDevelopment())
+if (builder.Environment.IsDevelopment())
 {
-    builder.Services.AddSingleton<IProductService, ProductServiceFake>();
+    builder.Services.AddTransient<IProductService, ProductServiceFake>();
 }
 else
 {
-    builder.Services.AddHttpClient<IProductService, ProductService>();
+    builder.Services.AddHttpClient<IProductService, ProductService>()
+        .AddPolicyHandler(GetRetryPolicy())
+        .AddPolicyHandler(GetCircuitBreakerPolicy());
 }
+
 builder.Services.AddControllersWithViews();
 
 var app = builder.Build();
@@ -27,7 +50,6 @@ var app = builder.Build();
 if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Home/Error");
-    // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
     app.UseHsts();
 }
 
@@ -37,7 +59,6 @@ app.UseStaticFiles();
 app.UseRouting();
 app.UseAuthentication();
 app.UseAuthorization();
-
 
 app.MapControllerRoute(
     name: "default",
