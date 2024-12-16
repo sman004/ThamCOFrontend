@@ -5,6 +5,8 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThamCoClient", "ThamCoClient\ThamCoClient.csproj", "{238C72B2-CD47-40FA-823D-FF1F3421041D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThamCoClient.Test", "ThamCoClient.Test\ThamCoClient.Test.csproj", "{38D2C2E9-3A59-48F5-9F55-308B25713A78}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{238C72B2-CD47-40FA-823D-FF1F3421041D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{238C72B2-CD47-40FA-823D-FF1F3421041D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{238C72B2-CD47-40FA-823D-FF1F3421041D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38D2C2E9-3A59-48F5-9F55-308B25713A78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38D2C2E9-3A59-48F5-9F55-308B25713A78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38D2C2E9-3A59-48F5-9F55-308B25713A78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38D2C2E9-3A59-48F5-9F55-308B25713A78}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
