@@ -8,6 +8,7 @@ namespace ThamCoClient.Services.Products
     public interface IProductService
     {
         Task<IEnumerable<ProductDto>> GetProductsAsync();
-        Task<ProductDto> GetProductByIdAsync(int id);    
+        Task<ProductDto> GetProductByIdAsync(int id);  
+        ////jhjh  
     }
 }
