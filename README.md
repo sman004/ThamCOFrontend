@@ -46,12 +46,3 @@ PORT: Port number on which the application runs.
 #######
 Development
 To contribute to this project: Contributions are not allowed as this is a university assignment
-
-
-Create a pull request.
-
-License
-
-This project is licensed under the MIT License. See the LICENSE file for details.
-
-Thank you for using the Products API Container! For support or feedback, please open an issue in the repository.
