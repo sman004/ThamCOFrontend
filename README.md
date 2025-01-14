@@ -11,7 +11,7 @@
 - [license](#licence)
 
 ## Overview
-#### This a mvc client facing app and it is a  is a microservice users can use to signin and browse products. It  makes api calls through http to  the products api both deployed in the same resource group and app service plan on azure. This containerized client app is built using .NET and deployed to azure using github actions.  The yaml file for automatic CI/CD pipeline can be found at the root of the project. 
+#### This a mvc client facing app and it is a microservice users can use to signin and browse products. It  makes api calls through http to  the products api both deployed in the same resource group and app service plan on azure. This containerized client app is built using .NET and deployed to azure using github actions.  The yaml file for automatic CI/CD pipeline can be found at the root of the project. 
 
 ## Features
 #### register and login, browse products, unfortunately this app has crashed after adding authentication and authorization, all efforst to make it work was unsuccesful.
