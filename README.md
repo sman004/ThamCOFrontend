@@ -1,4 +1,4 @@
-Fictitious Thamco Products API Container
+Fictitious Thamco client Products container
 
 Overview
 This Products API is a microservice that provides endpoints for managing product data in my application. It enables operations such as reading and  
